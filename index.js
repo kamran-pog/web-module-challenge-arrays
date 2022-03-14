@@ -49,9 +49,10 @@ function copy(/*your code here*/){
   /*your code here*/
 }    
 
+originalFlavorsCopy = [...originalFlavors]
 
-
-
+originalFlavorsCopy.push(Orange);
+console.log(originalFlavors, originalFlavorsCopy);
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Confirm that an array is exactly 31 flavors. Your function should accept:
